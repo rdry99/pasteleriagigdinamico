@@ -1,0 +1,72 @@
+/* 
+const express = require("express")
+
+const app = express()
+
+app.use(express.json())
+
+app.get("/welcome", (req,res) => {
+    res.send("hola!!!")
+})
+
+app.post("/dato", (req,res) => {
+    let postt=req.body
+    console.log(postt)
+    res.send("juan carlos!!!")
+})
+
+app.listen(5800,()=> {
+    console.log("aplicacion corriendo en puerto 5500")
+}) 
+*/
+
+//    clase 13
+
+const { Console } = require("console");
+const express = require("express")
+const app = express()
+const path = require ("path")
+const mysql=requiere('mysql2');// funciones msql
+const connection = mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    datebase:'ejercicios'
+
+})
+
+app.use(express.json())
+
+app.set("views", path.join(__dirname,"views"))
+app.set("view engine", "ejs")
+app.use(express.static(path.join(__dirname,"publiC")))
+
+app.get("/", (req,res) => {
+    res.render("index",{
+        title,
+        llamado:nombre
+    })
+})
+
+
+
+app.get("/welcome", (req,res) => {
+    connection.query('SELECT',(err,results,fileds)=>{
+        if(err){
+            return console.log(err)
+        }
+        console.log(results)
+        console.log(fileds)
+    })
+    res.send("hola!!!")
+})
+
+app.post("/info",(req,res)=>{
+    let data= req.body
+
+    console.log(data)
+    res.send("lo recibi")
+})
+
+app.listen(3000,()=>{
+        console.log("server escuchando al puesto 3000")
+})
