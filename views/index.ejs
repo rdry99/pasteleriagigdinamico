@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include("./parcials/head.ejs")%>
+</head>
+<body>
+  <header>
+    <%-include('./parcials/nav.ejs')%>
+</header>
+<main> 
+    <main id="imgPrincipa">
+       <img src="./img/inicio/portada.png">
+    </main>
+       <p class="pedidos">Pedidos mas destacados</p>
+       <div class="pedidosdestacados">
+        <% destacados.forEach((dato)=>{ %>
+        <article>
+          <div class="carta" style="width: 13rem;">
+          <img src=" <%= dato.imagen %> " class="card-img-top" alt="...">
+            <div class="carta-body"> 
+              <h3> <%= dato.Precio %></h3>
+              <p class="carta-text"><%= dato.Descripcion %></p>
+            </div>
+        </article>
+     <% }) %>
+     </div>
+</main>
+    <p class="pclientes">Comentarios de mis clientes</p>
+    <div class="comentarios">
+      <% clientess.forEach((dat)=>{ %>
+      <article>
+        <div class="card" style="width: 13rem;">
+        <img src=" <%= dat.imagen %>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>  <%= dat.cliente %></h3>
+          <p class="card-text"> <%= dat.opinion %></p>
+        </div>
+      </article>
+      <% }) %>
+    </div>
+<div>
+  <%-include('./parcials/redes.ejs')%>
+</div>
+    <%-include("./parcials/footer.ejs")%>
+</body>
+</html>

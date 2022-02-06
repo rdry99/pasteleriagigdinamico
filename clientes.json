@@ -1,0 +1,22 @@
+[
+    {
+        "imagen": "./img/inicio/tortapink.jpg",
+        "cliente": "Sonia G",
+        "opinion": "Super rico, crema riquisima, el relleno de dulce de leche estaba riquisimo y me encanto la decoracion.."
+    },
+    {
+        "imagen": "./img/inicio/tortagolosa.jfif",
+        "cliente": "Lean Rojas",
+        "opinion": "Riquisima la torta, quede emanorada de esta torta estaba riquisima y todos mis invitados sastifechos. Super recomendado."
+    },
+    {
+        "imagen": "./img/inicio/tortamatilda.jfif",
+        "cliente": "Laura Otano",
+        "opinion": " Una torta Matilda tal cual como el de la pelicula me encanto!!!!."
+    },
+    {
+        "imagen": "./img/inicio/redvelvet.jfif",
+        "cliente": "Escalada Lidia",
+        "opinion": "Me encanto una maravilla, rico por donde la veas. sin palabra super rico."
+    }
+]

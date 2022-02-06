@@ -1,0 +1,20 @@
+[
+    {
+        "imagen": "./img/inicio/tarta de frutos rojos.jpg",
+        "Precio": "$ 2.900",
+        "Descripcion": "Tarta de Frutos Rojos."
+
+    },
+    {
+        "imagen": "./img/inicio/tarta de banana.jpg",
+        "Precio": "$ 2.600",
+        "Descripcion": "Tarta de Banana."
+
+    },
+    {
+        "imagen": "./img/inicio/brownie.jpg",
+        "Precio": "$ 3.100",
+        "Descripcion": "Tarta brownie."
+
+    }
+]
