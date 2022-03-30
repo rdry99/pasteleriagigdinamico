@@ -9,140 +9,16 @@
     </header>
     <main>
       <section>
+        <% proda.forEach((pro)=>{ %>
+          <article>
         <div class="prducto">
-        <img src="./img/Tartas/brownieconfrutas.jpg" width="100%" alt="">
+        <img src=" <%= pro.image %> " width="100%" alt="">
         <p>
-                browni
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/browniecongolosinas.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/Durazno.jpg" width="90%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/lemon-pie.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/lemonpiechico.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/ricota.jpg" width="95%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/pastafrola.jpg" width="95%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/tarta-toffi.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/tarta de coco.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="prducto">
-        <img src="./img/Tartas/tarta-frutillas.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-      </section>  
-      <section>
-        <div class="tortas">
-        <img src="./img/Tortas/torta-sirena.jpg" width="90%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-dospiso.jpg" width="100%" height="110%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-helado.jpg" width="85%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-matilda.jpg" width="85%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-mario bross.jpg" width="90%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/torta-numeros.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/torta-oreo.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-salvanegra.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/torta-chaca.jpg" width="100%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas tren">
-        <img src="./img/Tortas/torta-tren.jpg" width="110%" height="120%" alt="">
-        <p>
-
-        </p>
-    </div>
-    <div class="tortas">
-        <img src="./img/Tortas/Torta-verdet.jpg" width="100%" alt="">
-        <p>
-
+                <%= pro.Descripcion %>
         </p>
         </div>
-        <div class="tortas">
-            <img src="./img/Tortas/Tota-voladora.jpg" width="100%" alt="">
-            <p>
-    
-            </p>
-            </div>
+      </article>
+        <% }) %>
       </section>
     </main>  
     <div>

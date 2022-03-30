@@ -9,6 +9,7 @@ nav{
     border-width: 1px;
     border-style: solid;
     background-color: darkturquoise;
+    list-style:none
 }
 
 .prducto{
@@ -43,3 +44,6 @@ footer{
     margin: 0;
     padding: 1px;
 }
+li {
+    list-style:none;
+    text-decoration:none;} 

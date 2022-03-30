@@ -1,0 +1,131 @@
+[
+    {
+        "image": "./img/Tartas/brownieconfrutas.jpg",
+        "Descripcion": "browni con frutas ."
+
+    },
+    {
+        "image": "./img/inicio/tarta de banana.jpg",
+        "Descripcion": "Tarta de Banana."
+
+    },
+    {
+        "image": "./img/Tartas/browniecongolosinas.jpg",
+        "Descripcion": "Browni con golosinas "
+
+    },
+    {
+        "image": "./img/Tartas/Durazno.jpg",
+        "Descripcion": "Tarta de durazno"
+
+    } ,
+    {
+        "image": "./img/Tartas/lemon-pie.jpg",
+        "Descripcion": " Lemon Pie"
+
+    },
+    {
+        "image": "./img/Tartas/lemonpiechico.jpg",
+        "Descripcion": "Lemon pie chico."
+
+    },
+    {
+        "image": "./img/Tartas/lemonpiechico.jpg.jpg",
+        "Descripcion": "Tarta de Banana."
+
+    },
+    {
+        "image": "./img/Tartas/ricota.jpg",
+        "Descripcion": "Tarta de ricota"
+
+    },
+    {
+        "image": "./img/Tartas/pastafrola.jpg",
+        "Descripcion": "Pastafrola de membrillo."
+    },
+     {
+        "image": "./img/inicio/brownie.jpg",
+        "Descripcion": "Tarta brownie."
+
+    } ,
+     {
+        "image": "./img/Tartas/tarta-toffi.jpg",
+        "Descripcion": "Tarta Toffi."
+
+    },
+    {
+        "image": "./img/Tartas/tarta de coco.jpg",
+        "Descripcion": "Tarta de coco"
+
+    },
+    {
+        "image": "../img/Tartas/tarta-frutillas.jpg",
+        "Descripcion": "Tarta de frutilla."
+
+    },
+    {
+        "image": "/img/Tortas/torta-sirena.jpg",
+        "Descripcion": "Torta de sirena"
+
+    },
+     {
+        "image": "/img/Tortas/Torta-dospiso.jpg",
+        "Descripcion": "Torta de DOS piso"
+
+    },
+      {
+        "image": "./img/Tortas/Torta-helado.jpg",
+        "Descripcion": "Torta Helada."
+
+    },
+    {
+        "image": "./img/inicio/Torta-matilda.jpg",
+        "Descripcion": "Torta matilda."
+
+    },
+    {
+        "image": "./img/inicio/Torta-mario bross.jpg",
+        "Descripcion": "Torta Mario Bross."
+
+    },
+    {
+        "image": "./img/inicio/brownie.jpg",
+        "Descripcion": "Tarta brownie."
+
+    }, 
+    {
+        "image": "./img/inicio/torta-numeros.jpg",
+        "Descripcion": "Tortas de numeros."
+
+    } ,
+     {
+        "image": "./img/inicio/torta-oreo.jpg",
+        "Descripcion": "Torta Con Oreos."
+
+    },
+    {
+        "image": "./img/Tortas/Torta-salvanegra.jpg.jpg",
+        "Descripcion": "Torta de Salvanegra."
+
+    },
+    {
+        "image": "./img/inicio/torta-chaca.jpg",
+        "Descripcion": "Torta de Chacarita."
+
+    },
+    {
+        "image": "./img/inicio/torta-tren.jpg",
+        "Descripcion": "Torta de tren."
+
+    }, 
+    {
+        "image": "./img/inicio/tota-voladora.jpg",
+        "Descripcion": "Torta Voladora."
+
+    },
+    {
+        "image": "./img/inicio/torta-verdet.jpg",
+        "Descripcion": "Torta Verdet."
+
+    }
+]

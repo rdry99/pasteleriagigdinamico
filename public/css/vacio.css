@@ -11,9 +11,11 @@ nav{
    border-width: 1px;
    border-style: solid;
    background-color: darkturquoise;
+   list-style:none
 }
 a{
     list-style-type: none;
+    text-decoration:none;
 }
 
 #imgPrincipa{
@@ -85,3 +87,16 @@ h3{
     margin: 0px;
     padding: 1%;
 }
+
+li {
+    list-style:none;
+    text-decoration:none;
+    border: 1px solid #2e518b;
+    background-color: rgb(255, 112, 184)b;
+    color: rgb(255, 112, 184);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    padding: 10px;
+} 

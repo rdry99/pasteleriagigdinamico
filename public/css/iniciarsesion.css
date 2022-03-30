@@ -10,6 +10,7 @@ nav{
    border-width: 1px;
    border-style: solid;
    background-color: darkturquoise;
+   list-style:none
 }
 .formulario{
     display: flex;
@@ -42,3 +43,6 @@ footer{
     margin: 0px;
     padding: 1%;
     }
+    li {
+        list-style:none;
+        text-decoration:none;} 
